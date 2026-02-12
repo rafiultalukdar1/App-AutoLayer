@@ -1,0 +1,689 @@
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* banner area  */
+
+    .single-banner .sphere {
+        display: none;
+    }
+
+    .content-card-wrapper {
+        gap: 10px;
+    }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header-right-wrapper > ul {
+        display: none;
+        gap: 14px;
+        align-items: start;
+        position: fixed;
+        right: 0;
+        top: 130px;
+        flex-direction: column;
+        padding: 25px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        z-index: 100;
+    }
+    .menu-toggle-btn {
+        display: block;
+    }
+    .header-right-wrapper > ul li {
+        width: 100%;
+    }
+    .header-right-wrapper > ul li a {
+        width: 100% !important;
+        justify-content: center;
+    }
+    .site-logo .mobile-logo {
+        display: block;
+    }
+    .site-logo .logo-desktop {
+        display: none;
+    }
+    .mobile-nav.show {
+        display: flex;
+    }
+
+    /* banner area  */
+
+    .single-banner .sphere {
+        display: none;
+    }
+
+    .tabs-items {
+        flex: 1 1 0%;
+        max-width: calc(100% - 180px);
+    }
+
+    /* footer responsive  */
+
+    .footer-links ul {
+        flex-direction: column;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-social {
+        padding-top: 30px;
+    }
+
+    .content-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-right-wrapper {
+        flex: 1 1 0%;
+        width: 100%;
+    }
+    .token-info-box {
+        flex-wrap: wrap;
+    }
+    .token-info-box .info-wrapper {
+        flex: 1 auto;
+        width: calc(50% - 10px);
+        align-items: center;
+        text-align: center;
+    }
+    .info-wrapper p {
+        max-width: 100%;
+    }
+    .chart-box {
+        padding: 40px 0;
+    }
+
+    /* stake page  */
+    .stake-banner-wrapper {
+        background-image: url(../images/chest.ffe.png);
+    }
+
+    .stake-banner-wrapper::after {
+        display: none;
+    }
+    .stake-flex-box {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stake-flex-box .stake-items {
+        min-width: 100%;
+    }
+    .stake-items.gridspan-2 {
+        grid-column: span 2;
+    }
+    .stake-title h2 {
+        font-size: 26px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .stake-items.gridspan-2 p {
+        text-align: center;
+    }
+
+    .newtork-change-right-wp {
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid #ededed;
+        border-radius: 12px;
+        bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        height: -moz-fit-content;
+        height: fit-content;
+        justify-content: flex-start;
+        left: 10px;
+        min-width: 220px;
+        width: 100%;
+        padding: 16px;
+        position: fixed;
+        right: 10px;
+        z-index: 1;
+    }
+    .sr-network-box {
+        border: none;
+    }
+}
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .header-right-wrapper > ul {
+        display: none;
+        gap: 14px;
+        align-items: start;
+        position: fixed;
+        right: 0;
+        top: 130px;
+        flex-direction: column;
+        padding: 25px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        z-index: 100;
+    }
+    .header-right-wrapper > ul li {
+        width: 100%;
+    }
+    .header-right-wrapper > ul li a {
+        width: 100% !important;
+        justify-content: center;
+    }
+    .site-logo .mobile-logo {
+        display: block;
+    }
+    .site-logo .logo-desktop {
+        display: none;
+    }
+
+    .connent-wallet-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .connect-wallet-right {
+        order: 1;
+    }
+    .connect-wallet-left {
+        order: 2;
+        max-width: 100%;
+        border: none;
+    }
+    .wallet-description .logo {
+        display: none;
+    }
+    .wallet-description {
+        align-items: center;
+        text-align: center;
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+    }
+    .mobile-nav.show {
+        display: flex;
+    }
+    .menu-toggle-btn {
+        display: block;
+    }
+
+    /*===== banner area ==== */
+
+    .single-banner::before {
+        display: none;
+    }
+    .single-banner::after {
+        display: none;
+    }
+    .single-banner .sphere {
+        left: auto;
+        width: 90px;
+    }
+    .single-banner h2 {
+        font-size: 26px;
+    }
+    .single-banner p {
+        font-size: 18px;
+    }
+    .single-banner {
+        min-height: auto;
+    }
+
+    .tabs-items {
+        flex: 1 1 0%;
+    }
+    .deashboard-tabs {
+        align-items: end;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .tabs-items ul li p {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+    /* footer responsive  */
+
+    .footer-links ul {
+        flex-direction: column;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-social {
+        padding-top: 20px;
+    }
+
+    .content-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-right-wrapper {
+        flex: 1 1 0%;
+        width: 100%;
+    }
+    .token-info-box {
+        flex-wrap: wrap;
+    }
+    .token-info-box .info-wrapper {
+        flex: 1 auto;
+        width: calc(50% - 10px);
+        align-items: center;
+        text-align: center;
+    }
+    .info-wrapper p {
+        max-width: 100%;
+    }
+    .chart-box {
+        padding: 40px 0;
+    }
+    .beck-page-btn a span {
+        display: none;
+    }
+    .inner-content-header {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    /* stake page  */
+    .stake-banner-wrapper {
+        background-image: url(../images/chest.ffe.png);
+    }
+
+    .stake-banner-wrapper::after {
+        display: none;
+    }
+    .stake-flex-box {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stake-flex-box .stake-items {
+        min-width: 100%;
+    }
+    .stake-items.gridspan-2 {
+        grid-column: span 2;
+    }
+    .stake-title h2 {
+        font-size: 26px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .stake-items.gridspan-2 p {
+        text-align: center;
+    }
+
+    .airdrop-wrapper h2 {
+        font-size: 18px;
+    }
+    .airdrop-wrapper p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .airdrop-items-card {
+        padding: 30px 0;
+        padding-bottom: 0;
+    }
+
+    .content-right-wrapper .token-title h2 {
+        font-size: 24px;
+    }
+    .settings-btn button img {
+        width: 28px;
+    }
+    .shere-wrapper button img {
+        width: 28px;
+    }
+    .activly-title h2 {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .newtork-change-right-wp {
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid #ededed;
+        border-radius: 12px;
+        bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        height: -moz-fit-content;
+        height: fit-content;
+        justify-content: flex-start;
+        left: 10px;
+        min-width: 220px;
+        width: 100%;
+        padding: 16px;
+        position: fixed;
+        right: 10px;
+        z-index: 1;
+    }
+    .sr-network-box {
+        border: none;
+    }
+
+    .chart-box .mobile {
+        display: block;
+    }
+    .chart-box .desktop {
+        display: none;
+    }
+    .section-title .mobile {
+        display: block;
+    }
+    .section-title .desktop {
+        display: none;
+    }
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+    .header-right-wrapper > ul {
+        display: none;
+        gap: 14px;
+        align-items: start;
+        position: fixed;
+        right: 0;
+        top: 130px;
+        flex-direction: column;
+        padding: 25px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        z-index: 100;
+    }
+    .header-right-wrapper > ul li {
+        width: 100%;
+    }
+    .header-right-wrapper > ul li a {
+        width: 100% !important;
+        justify-content: center;
+    }
+    .site-logo .mobile-logo {
+        display: block;
+    }
+    .site-logo .logo-desktop {
+        display: none;
+    }
+    .header-top-wrapper p {
+        font-size: 12px;
+    }
+    .header-top-wrapper {
+        gap: 5px;
+    }
+
+    .connent-wallet-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .connect-wallet-right {
+        order: 1;
+    }
+    .connect-wallet-left {
+        order: 2;
+        max-width: 100%;
+        border: none;
+    }
+    .wallet-description .logo {
+        display: none;
+    }
+    .wallet-description {
+        align-items: center;
+        text-align: center;
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+    }
+
+    .mobile-nav.show {
+        display: flex;
+    }
+
+    .menu-toggle-btn {
+        display: block;
+    }
+    /*===== banner area ==== */
+
+    .single-banner::before {
+        display: none;
+    }
+    .single-banner::after {
+        display: none;
+    }
+    .single-banner .sphere {
+        left: auto;
+        width: 90px;
+    }
+    .single-banner h2 {
+        font-size: 26px;
+    }
+    .single-banner p {
+        font-size: 18px;
+    }
+    .single-banner {
+        min-height: auto;
+    }
+
+    .tabs-items {
+        flex: 1 1 0%;
+        width: 100%;
+    }
+    .deashboard-tabs {
+        align-items: end;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .tabs-items ul li p {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+    .tabs-content-wrapper {
+        padding: 20px 0;
+    }
+
+    /* footer responsive  */
+
+    .footer-links ul {
+        flex-direction: column;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-social {
+        padding-top: 20px;
+    }
+    .site-footer {
+        padding-bottom: 30px;
+    }
+
+    .content-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-right-wrapper {
+        flex: 1 1 0%;
+        width: 100%;
+    }
+    .token-info-box {
+        flex-wrap: wrap;
+    }
+    .token-info-box .info-wrapper {
+        flex: 1 auto;
+        width: calc(50% - 10px);
+        align-items: center;
+        text-align: center;
+    }
+    .info-wrapper p {
+        max-width: 100%;
+    }
+    .chart-box {
+        padding: 40px 0;
+    }
+    .beck-page-btn a span {
+        display: none;
+    }
+    .inner-content-header {
+        align-items: start;
+        flex-direction: column;
+    }
+    .shere-wrapper button {
+        margin-right: 0;
+    }
+    .page-head-title h4 {
+        font-size: 16px;
+    }
+
+    /* stake page  */
+    .stake-banner-wrapper {
+        background-image: url(../images/chest.ffe.png);
+        padding: 24px 14px;
+    }
+
+    .stake-banner-wrapper::after {
+        display: none;
+    }
+    .stake-flex-box {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stake-flex-box .stake-items {
+        min-width: 100%;
+    }
+    .stake-items.gridspan-2 {
+        grid-column: span 2;
+    }
+    .stake-title h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .stake-items.gridspan-2 p {
+        text-align: center;
+    }
+    .stake-flex-box .stake-items h4 {
+        font-size: 12px;
+    }
+    .stake-flex-box .stake-items h2 {
+        font-size: 20px;
+    }
+
+    .refer-history-header {
+        padding: 10px 21px;
+        background: transparent;
+        border: none;
+    }
+    .refer-history-header h4 {
+        display: none;
+    }
+    .refer-history-header .bnb-chain {
+        display: none;
+    }
+    .refer-history-list {
+        display: none;
+    }
+    .refer-code-history {
+        border: none;
+        margin-top: 20px;
+    }
+    .refer-history-header button {
+        margin: 0 auto;
+    }
+    .refer-enter-box input {
+        font-size: 28px;
+    }
+    .refer-enter-box {
+        padding: 25px 16px;
+        margin: 20px 0;
+    }
+    .inviting-popup {
+        padding: 80px 20px;
+    }
+    .airdrop-wrapper h2 {
+        font-size: 18px;
+    }
+    .airdrop-wrapper p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .airdrop-items-card {
+        padding: 30px 0;
+        padding-bottom: 0;
+    }
+
+    .content-right-wrapper .token-title h2 {
+        font-size: 24px;
+    }
+    .settings-btn button img {
+        width: 28px;
+    }
+    .shere-wrapper button img {
+        width: 28px;
+    }
+    .activly-title h2 {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .newtork-change-right-wp {
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid #ededed;
+        border-radius: 12px;
+        bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        height: -moz-fit-content;
+        height: fit-content;
+        justify-content: flex-start;
+        left: 10px;
+        min-width: 220px;
+        width: 100%;
+        padding: 16px;
+        position: fixed;
+        right: 10px;
+        z-index: 1;
+    }
+    .sr-network-box {
+        border: none;
+    }
+
+    .chart-box .mobile {
+        display: block;
+    }
+    .chart-box .desktop {
+        display: none;
+    }
+
+    .risk-factor-card {
+        flex-direction: column;
+    }
+    .risk-card-left {
+        font-size: 14px;
+    }
+    .risk-card-right .percetage {
+        font-size: 14px;
+    }
+    .section-title .mobile {
+        display: block;
+    }
+    .section-title .desktop {
+        display: none;
+    }
+}
