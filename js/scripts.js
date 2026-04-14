@@ -1,7 +1,6 @@
 // JavaScript for Popup and Redirect
-
 document.addEventListener("DOMContentLoaded", function () {
-    var popupButtons = document.querySelectorAll(".ConnectWalletBtn"); // Select all buttons with this class
+    var popupButtons = document.querySelectorAll(".ConnectWalletBtn");
     var popup = document.getElementById("ConnectWalletPopup");
     var popupContent = document.querySelector(".popup-dialog");
     var closePopup = document.querySelector(".closePopup");
@@ -39,7 +38,6 @@ function slideToggle(element, duration = 300) {
     let display = computedStyle.display;
 
     if (display === "none") {
-        // Show the element
         element.style.display = "block";
         let height = element.scrollHeight + "px";
         element.style.height = "0";
@@ -52,7 +50,6 @@ function slideToggle(element, duration = 300) {
             element.style.transition = "";
         }, duration);
     } else {
-        // Hide the element
         let height = element.scrollHeight + "px";
         element.style.height = height;
         element.offsetHeight;
@@ -115,7 +112,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuToggleBtn = document.querySelector(".menu-toggle-btn");
     const mobileNav = document.querySelector(".mobile-nav");
 
-    // Toggle menu display when clicking the toggle button
     menuToggleBtn.addEventListener("click", function (event) {
         event.stopPropagation();
         mobileNav.classList.toggle("show");
@@ -128,33 +124,30 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
 // network change popup
 
 document.addEventListener("DOMContentLoaded", function () {
     const popupButtons = document.querySelectorAll(".NetworkChangeBtn");
     const popup = document.getElementById("NetworkChangePopup");
-    const closePopup = popup.querySelector(".popup-close-btn"); // More specific selector
+    const closePopup = popup.querySelector(".popup-close-btn");
 
-    // Open popup
     popupButtons.forEach(function (popupButton) {
         popupButton.addEventListener("click", function (event) {
             event.preventDefault();
-            popup.style.display = "flex"; // Show popup
+            popup.style.display = "flex";
         });
     });
 
-    // Close popup when the close button is clicked
     if (closePopup) {
         closePopup.addEventListener("click", function () {
-            popup.style.display = "none"; // Hide popup
+            popup.style.display = "none";
         });
     }
 
-    // Close popup when clicking outside of the popup content
     popup.addEventListener("click", function (event) {
         if (event.target === popup) {
-            // Ensure the click is directly on the popup backdrop
-            popup.style.display = "none"; // Hide popup
+            popup.style.display = "none";
         }
     });
 });
@@ -177,12 +170,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // tab js
-
 document.addEventListener("DOMContentLoaded", function () {
     const tabs = document.querySelectorAll(".deshboard-tab-button");
     const tabContents = document.querySelectorAll(".deshboard-tab-content");
 
-    // Activate the first tab and content by default
     tabs[0].classList.add("active");
     tabContents[0].style.display = "block";
 
@@ -237,17 +228,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     tabButtons.forEach((button) => {
         button.addEventListener("click", function () {
-            // Remove 'active' class from all buttons and tab contents
             tabButtons.forEach((btn) => btn.classList.remove("active"));
             tabContents.forEach((content) => content.classList.remove("active"));
-
-            // Add 'active' class to the clicked button
             this.classList.add("active");
 
-            // Get the target tab ID from data attribute
             const targetTab = this.getAttribute("data-tabs");
 
-            // Find and activate the corresponding tab content
             const targetContent = document.getElementById(targetTab);
             if (targetContent) {
                 targetContent.classList.add("active");
@@ -256,22 +242,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-//    service show hide js
-
 // Wait for the DOM to fully load
 document.addEventListener("DOMContentLoaded", function () {
     const serviceShowBtn = document.getElementById("ServiceShowBtn");
     const serviceWrapper = document.getElementById("ServiceWrapper");
     serviceShowBtn.addEventListener("click", function () {
-        // Toggle the 'hide' class
         serviceWrapper.classList.toggle("hide");
-
-        // Toggle the 'active' class
         serviceShowBtn.classList.toggle("active");
     });
 });
 
-//   veli =============================
 
 // Function to handle tooltip toggle and click outside
 document.addEventListener("DOMContentLoaded", function () {
@@ -279,9 +259,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const riskCards = document.querySelectorAll(".risk-card-right");
 
     tooltipButtons.forEach((button) => {
-        // Toggle 'active' class when clicking the button
         button.addEventListener("click", function (event) {
-            event.stopPropagation(); // Prevent triggering the document click listener
+            event.stopPropagation();
             const riskCard = this.closest(".risk-card-right");
             if (riskCard) {
                 riskCard.classList.toggle("active");
@@ -300,7 +279,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.getElementById("ShereBtn").addEventListener("click", function (event) {
-    event.stopPropagation(); // Prevent the click from propagating to the document
+    event.stopPropagation();
     const shereWrapper = document.querySelector(".shere-wrapper");
     shereWrapper.classList.toggle("active");
 });
@@ -310,7 +289,6 @@ document.addEventListener("click", function (event) {
     const shereWrapper = document.querySelector(".shere-wrapper");
     const shereButton = document.getElementById("ShereBtn");
 
-    // If the click is outside the shereWrapper and the button, remove the "active" class
     if (!shereWrapper.contains(event.target) && !shereButton.contains(event.target)) {
         shereWrapper.classList.remove("active");
     }
