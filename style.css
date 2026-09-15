@@ -87,113 +87,13 @@ img {
     color: white;
     background: #1269ff;
 }
-
 ::-webkit-selection {
     color: white;
     background: #1269ff;
 }
-
 ::-moz-selection {
     color: white;
     background: #1269ff;
-}
-
-.scrolltotop {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    background: #1ebe73;
-    text-align: center;
-    font-size: 22px;
-    color: #ffffff;
-    position: fixed;
-    right: 30px;
-    bottom: 25px;
-    display: none;
-    animation: lab_top_up 5s linear infinite;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    z-index: 1;
-}
-
-.scrolltotop img {
-    width: 14px;
-    margin-top: -4px;
-}
-
-@keyframes lab_top_up {
-    0% {
-        transform: translateY(-15px);
-    }
-    50% {
-        transform: translateY(0px);
-    }
-    100% {
-        transform: translateY(-15px);
-    }
-}
-
-.pluse,
-.pluse2 {
-    position: relative;
-    top: 10px;
-    left: -7px;
-    z-index: -1;
-}
-
-.pluse::before,
-.pluse2::before {
-    width: 40px;
-    height: 40px;
-}
-
-.pluse::after,
-.pluse::before,
-.pluse2::after,
-.pluse2::before {
-    background: #1ebe73;
-    border-radius: 50%;
-    left: 50%;
-    top: 50%;
-    display: block;
-    content: "";
-    position: absolute;
-    top: 4px;
-    left: -1px;
-}
-
-.pluse::after,
-.pluse2::after {
-    width: 30px;
-    height: 30px;
-    background: transparent;
-    margin-left: -15px;
-    margin-top: -15px;
-}
-
-.pluse::before {
-    -webkit-animation: pluse_animate 2.5s infinite linear;
-    animation: pluse_animate 2.5s infinite linear;
-}
-
-.pluse2::before {
-    -webkit-animation: pluse_animate 3s infinite linear;
-    animation: pluse_animate 3s infinite linear;
-}
-
-@keyframes pluse_animate {
-    0% {
-        opacity: 1;
-        -webkit-transform: translate(-50%, -50%) scale(0.3);
-        transform: translate(-50%, -50%) scale(0.3);
-    }
-    100% {
-        opacity: 0;
-        -webkit-transform: translate(-50%, -50%) scale(2);
-        transform: translate(-50%, -50%) scale(2);
-    }
 }
 
 .container,
@@ -756,7 +656,6 @@ img {
     width: 488px;
     max-width: 100%;
 }
-
 .content-pop-header {
     display: flex;
     padding: 1rem;
@@ -765,7 +664,6 @@ img {
     border-color: var(--border-color);
     align-items: center;
 }
-
 .popup-close-btn button {
     width: 32px;
     height: 32px;
@@ -911,7 +809,6 @@ li .connect-btn {
 .setting-dropdown-card ul li:last-child {
     border-bottom: none;
 }
-
 li .connect-btn:hover span {
     -webkit-background-clip: text;
     background-image: linear-gradient(90deg, #ff9500, #ff4522, #2951da);
@@ -924,7 +821,6 @@ li .connect-btn:hover span {
 .setting-content-wrapper button {
     justify-content: center;
 }
-
 .language-popup {
     display: none;
     background: rgba(0, 0, 0, 0.2);
@@ -1035,11 +931,9 @@ li .connect-btn:hover span {
     top: -45px;
     width: 260px;
 }
-
 .single-banner.banner-st1::after {
     background-image: url(images/land-right.png);
 }
-
 .single-banner .sphere {
     height: 90px;
     position: absolute;
@@ -1050,7 +944,6 @@ li .connect-btn:hover span {
     width: 260px;
     z-index: 10;
 }
-
 .single-banner h2 {
     font-size: 32px;
     font-weight: 700;
@@ -1108,7 +1001,6 @@ li .connect-btn:hover span {
 .single-banner .action-btn button i {
     font-size: 18px;
 }
-
 .Network-popup .popup-dialog {
     background-color: #fff;
     border: 1px solid #2d8af940;
@@ -1119,7 +1011,6 @@ li .connect-btn:hover span {
     padding: 22px;
     z-index: 1000000;
 }
-
 .Network-list ul {
     display: flex;
     gap: 10px;
@@ -1155,7 +1046,6 @@ li .connect-btn:hover span {
     justify-content: space-between;
     gap: 15px;
 }
-
 .tabs-items ul {
     display: flex;
     align-items: center;
@@ -1167,11 +1057,9 @@ li .connect-btn:hover span {
     overflow: auto;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
-
 .tabs-items ul li {
     cursor: pointer;
 }
-
 .tabs-items ul li p {
     background: transparent;
     border-radius: 10px;
@@ -1191,7 +1079,6 @@ li .connect-btn:hover span {
     position: relative;
     z-index: 2;
 }
-
 .tabs-items ul li p::after {
     content: '';
     position: absolute;
@@ -1209,25 +1096,21 @@ li .connect-btn:hover span {
     mask-composite: exclude;
     display: none;
 }
-
 .tabs-items ul li.active p {
     color: #323232;
 }
 .tabs-items ul li.active p::after {
     display: block;
 }
-
 .tabs-items ul li p:hover {
     -webkit-background-clip: text;
     background-image: linear-gradient(90deg, #ff9500, #ff4522, #2951da);
     color: transparent;
     background-clip: text;
 }
-
 .tabs-items ul li p:hover::after {
     display: block;
 }
-
 .select-network button {
     background: transparent;
     border: 1px solid var(--border-color);
@@ -1395,18 +1278,15 @@ li .connect-btn:hover span {
     border-radius: 6px;
     display: block;
 }
-
 .token-details ul {
     display: flex;
     gap: 10px;
 }
-
 .token-details ul li {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .product-multipiler p {
     border: 1px solid #dedede;
     border-radius: 18px;
@@ -1435,7 +1315,6 @@ li .connect-btn:hover span {
 .multipiler-logo.autolayer {
     background-color: #d34f16;
 }
-
 .multipiler-wrapper {
     display: flex;
     align-items: center;
@@ -1453,7 +1332,6 @@ li .connect-btn:hover span {
     top: -6px;
     width: 17px;
 }
-
 .asset-action-btn a {
     background-image: none;
     background-clip: text;
@@ -1504,7 +1382,6 @@ li .connect-btn:hover span {
     color: transparent;
     background-image: linear-gradient(90deg, #ff9500, #ff4522, #2951da);
 }
-
 .asset-card:hover {
     border-color: transparent;
     background: #fff;
@@ -1517,7 +1394,6 @@ li .connect-btn:hover span {
 .multipiler-logo.renzo-logo {
     background-color: #3f7936;
 }
-
 .multipiler-logo.eigenlayer {
     background-color: #094cc0;
 }
@@ -1529,14 +1405,12 @@ li .connect-btn:hover span {
 .row.gap-y-30 {
     gap: 30px 0;
 }
-
 .deshboard-tab-content {
     display: none;
 }
 .deshboard-tab-content.active {
     display: block;
 }
-
 .lrt-text.lst-bg {
     background: linear-gradient(90deg, #f90, #fa601e);
 }
@@ -1591,7 +1465,6 @@ li .connect-btn:hover span {
 .body-white {
     background: #fff;
 }
-
 .shere-wrapper button {
     background: transparent;
     border: none;
@@ -1659,7 +1532,6 @@ li .connect-btn:hover span {
 .inner-page-header {
     border-bottom: 1px solid var(--border-color);
 }
-
 .aubnb-connect-wallet {
     align-items: flex-start;
     display: flex;
@@ -1744,7 +1616,6 @@ li .connect-btn:hover span {
 .inner-content-header .token-info h4 span {
     color: #000;
 }
-
 .token-status {
     align-items: center;
     border: 1px solid #e4eef8;
@@ -1774,7 +1645,6 @@ li .connect-btn:hover span {
     color: #777777;
     font-size: 16px;
 }
-
 .token-info-box {
     display: flex;
     align-items: center;
@@ -1821,7 +1691,6 @@ li .connect-btn:hover span {
     font-weight: 600;
     line-height: 20px;
 }
-
 .info-wrapper p {
     max-width: 120px;
 }
@@ -1841,25 +1710,21 @@ li .connect-btn:hover span {
     background: #ff873d;
     border-color: #ff873d;
 }
-
 .token-apy-time-chart {
     padding-top: 10px;
     margin-top: 40px;
     border-top: none;
 }
-
 .section-title h4 {
     font-size: 18px;
     font-weight: 600;
     color: #0f2b41;
     margin: 10px 0;
 }
-
 .chart-box {
     background-color: #f9f9f9;
     padding: 20px;
 }
-
 .chart-filter-btn {
     padding: 6px 15px;
     background: #f2f2f2;
@@ -1969,9 +1834,7 @@ li .connect-btn:hover span {
     opacity: 0.4;
 }
 
-/* ===================
-Refferals Page style 
-===================== */
+/* Refferals Page style */
 
 .header-right-wrapper .learn-more a {
     border-radius: 8px;
@@ -1988,188 +1851,6 @@ Refferals Page style
     color: #4088fc;
 }
 
-.refer-hero-area {
-    background: url(images/referrals-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 30px 0;
-}
-
-.refer-hero-wrapper h2 {
-    max-width: 480px;
-    font-size: 36px;
-    font-weight: 700;
-    color: #fff;
-}
-.refer-hero-wrapper p {
-    max-width: 480px;
-    color: #fff;
-    font-size: 17px;
-    margin-top: 25px;
-    line-height: 1.4;
-}
-
-.rafer-area {
-    padding: 40px 0;
-    padding-bottom: 0;
-}
-
-.rafer-tab-nav {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    width: max-content;
-}
-.rafer-tab-nav button {
-    padding: 6px 10px;
-    font-size: 16px;
-    color: #4a4a4a;
-    border: none;
-    background: transparent;
-    border: 1px solid #eee;
-    border-radius: 11px;
-    cursor: pointer;
-}
-.rafer-tab-nav .traders-btn {
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-}
-.rafer-tab-nav .affiliates-btn {
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-}
-
-.rafer-tab-content-wrapper {
-    padding: 30px 0;
-}
-.refer-box {
-    border-radius: 16px;
-    padding: 20px 10%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    width: 100%;
-    min-height: 140px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.refer-box.rafer-code {
-    background-image: url(images/referrals-card-blue.52fb274934c69f2e74eb.jpeg);
-}
-.refer-box .active-rafer-code {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.refer-box h4 {
-    font-size: 17px;
-    letter-spacing: 0;
-    margin: 5px 0 10px;
-}
-.refer-box .active-rafer-code h2 {
-    font-size: 34px;
-    font-weight: 800;
-    color: #639cff;
-}
-.refer-box .active-rafer-code button {
-    background: transparent;
-    border: none;
-    outline: none;
-}
-
-.trader-volume.refer-box {
-    background-image: url(images/referrals-card-yellow.a2550845438ac0056de6.jpeg);
-}
-
-.refer-box .valume-value h2 {
-    font-size: 34px;
-    color: #ffd705;
-    font-weight: 800;
-}
-.point-earn.refer-box {
-    background-image: url(images/referrals-card-orange.19236448bebdabe3eadc.jpeg);
-}
-.refer-box .earn-point h2 {
-    font-size: 34px;
-    font-weight: 800;
-    color: #ff7121;
-}
-
-.referral-traders.refer-box {
-    background-image: url(images/referrals-card-green.d1da9ae9103d0f3fd9db.jpg);
-}
-
-.earn-point.color-green h2 {
-    color: #8bff05;
-}
-
-.rafer-tab-nav button.active {
-    background: #ffd600;
-    color: #6c5b00;
-}
-.rafer-tab-content {
-    display: none;
-}
-.rafer-tab-content.active {
-    display: block;
-}
-
-.refer-code-history {
-    margin-top: 40px;
-    border: 1px solid #e7e7e7;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.refer-history-header {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #fafafa;
-    padding: 25px 21px;
-}
-.refer-history-header .bnb-chain {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.refer-history-header .bnb-chain span {
-    font-weight: 800;
-    color: #000;
-}
-.refer-history-header button {
-    align-items: center;
-    background-color: #1269ff;
-    border-radius: 10px;
-    color: #fff;
-    display: flex;
-    font-size: 16px;
-    font-weight: 600;
-    gap: 14px;
-    padding: 10px 18px;
-    border: none;
-    cursor: pointer;
-    margin-left: auto;
-}
-.refer-history-list ul {
-    display: flex;
-    align-items: center;
-}
-.refer-history-list ul li {
-    flex: 1 1 0%;
-    font-weight: 600;
-    color: #000;
-}
-
-.refer-history-list {
-    padding: 30px 10px;
-}
-
-.rafer-tab-content .row {
-    gap: 25px 0;
-}
 
 /* inviteing popup style  */
 
@@ -2194,7 +1875,6 @@ Refferals Page style
 .inviting-popup-wrapper .inviting-popup-header p {
     flex: 1 1 0%;
 }
-
 .refer-enter-box {
     border: 1px solid #ddd;
     border-radius: 19px;
@@ -2260,7 +1940,6 @@ Refferals Page style
     font-family: var(--inconsolata);
     line-height: 1.4;
 }
-
 .airdrop-card {
     background-position: 0;
     background-size: cover;
@@ -2293,7 +1972,6 @@ Refferals Page style
     min-height: 64px;
     animation: plues-header 1.5s 0.5s infinite;
 }
-
 @keyframes plues-header {
     0% {
         background-color: #c0c0c033;
@@ -2305,7 +1983,6 @@ Refferals Page style
         background-color: #c0c0c033;
     }
 }
-
 @keyframes pluse {
     0% {
         opacity: 0.4;
@@ -2317,7 +1994,6 @@ Refferals Page style
         opacity: 0.4;
     }
 }
-
 .airdrop-card .airdrop-logo span {
     padding: 4px 10px;
     background: #0009;
@@ -2346,7 +2022,6 @@ Refferals Page style
     font-size: 16px;
     font-weight: 500;
 }
-
 .airdrop-items-card {
     padding: 60px 0;
 }
@@ -2387,7 +2062,6 @@ Refferals Page style
     font-size: 16px;
     font-weight: 500;
 }
-
 .signle-service {
     border-left: 3px solid #f2f4fa;
     border-radius: 12px;
@@ -2428,11 +2102,9 @@ Refferals Page style
 .activly-wrapper .row {
     gap: 20px 0;
 }
-
 .activly-wrapper .row > *:nth-child(-n + 4) {
     display: block;
 }
-
 .activly-wrapper .row > *:nth-child(n + 5) {
     display: none;
 }
@@ -2466,7 +2138,6 @@ Refferals Page style
 .service-show-btn button.active .see-more {
     display: block;
 }
-
 .risk-factor-wrapper {
     border-top: 4px solid #f9f9f9;
     display: block;
@@ -2480,7 +2151,6 @@ Refferals Page style
     font-weight: 600;
     padding: 15px 0;
 }
-
 .risk-factor-card {
     display: flex;
     gap: 16px;
@@ -2498,7 +2168,6 @@ Refferals Page style
     padding: 16px;
     position: relative;
 }
-
 .risk-card-left {
     align-items: center;
     display: flex;
@@ -2533,7 +2202,6 @@ Refferals Page style
     justify-content: center;
     width: 20px;
 }
-
 .tooltip-container {
     position: relative;
 }
@@ -2551,7 +2219,6 @@ Refferals Page style
     z-index: 2;
     width: auto;
 }
-
 .tooltip-content ul li .logo img {
     border-radius: 50%;
     box-sizing: border-box;
@@ -2667,11 +2334,9 @@ Refferals Page style
 .risk-card-right.active .tooltip-content {
     display: flex;
 }
-
 .risk-card-right.active .veil {
     backdrop-filter: blur(2px);
 }
-
 .tooltip-bottom {
     display: none;
 }
@@ -2690,7 +2355,6 @@ Refferals Page style
 .section-title .mobile {
     display: none;
 }
-
 .multipiler-logo.symbiotic {
     background-color: #6ba60b !important;
 }
@@ -2706,7 +2370,6 @@ Refferals Page style
 .multipiler-logo.inspection {
     background-color: #190b6d;
 }
-
 .risk-card-wrapper.disable {
     cursor: not-allowed;
     opacity: 0.6;
@@ -2723,7 +2386,6 @@ Refferals Page style
     font-weight: 600;
     margin: 0;
 }
-
 .risk-chart-btn {
     display: flex;
     align-items: center;
@@ -2750,7 +2412,6 @@ Refferals Page style
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 #chartUpDown {
     width: 100%;
     height: 350px;

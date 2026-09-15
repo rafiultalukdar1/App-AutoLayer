@@ -472,27 +472,6 @@ Xtra Small Screen - Small Mobile
     .page-head-title h4 {
         font-size: 16px;
     }
-    .refer-history-header {
-        padding: 10px 21px;
-        background: transparent;
-        border: none;
-    }
-    .refer-history-header h4 {
-        display: none;
-    }
-    .refer-history-header .bnb-chain {
-        display: none;
-    }
-    .refer-history-list {
-        display: none;
-    }
-    .refer-code-history {
-        border: none;
-        margin-top: 20px;
-    }
-    .refer-history-header button {
-        margin: 0 auto;
-    }
     .refer-enter-box input {
         font-size: 28px;
     }
