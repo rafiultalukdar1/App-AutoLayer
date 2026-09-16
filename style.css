@@ -488,7 +488,6 @@ img {
 }
 
 /*======= header top area style end hare ====== */
-/*========= header area start hare ========= */
 
 .site-header {
     padding: 18px 0;
@@ -1017,7 +1016,6 @@ li .connect-btn:hover span {
     flex-wrap: wrap;
     flex-direction: column;
 }
-
 .Network-list {
     padding: 48px;
 }
@@ -1164,7 +1162,6 @@ li .connect-btn:hover span {
 .select-network.active button i {
     transform: rotate(180deg);
 }
-
 .tabs-content-wrapper {
     padding: 40px 0;
 }
@@ -1397,11 +1394,9 @@ li .connect-btn:hover span {
 .multipiler-logo.eigenlayer {
     background-color: #094cc0;
 }
-
 .multipiler-logo.ether {
     background-color: #0f1d74;
 }
-
 .row.gap-y-30 {
     gap: 30px 0;
 }
@@ -1460,7 +1455,7 @@ li .connect-btn:hover span {
     background: #f8eddb;
 }
 
-/*================ auBNB Page style start hare =============== */
+/*======== Page start hare ======== */
 
 .body-white {
     background: #fff;
@@ -1598,118 +1593,6 @@ li .connect-btn:hover span {
 .content-right-wrapper {
     flex: 1;
 }
-.inner-content-header {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-.inner-content-header .token-info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.inner-content-header .token-info h4 {
-    font-size: 27px;
-    font-weight: 800;
-    color: #ffc700;
-}
-.inner-content-header .token-info h4 span {
-    color: #000;
-}
-.token-status {
-    align-items: center;
-    border: 1px solid #e4eef8;
-    border-radius: 8px;
-    box-shadow: 0 4px 4px 0 rgba(207, 216, 226, 0.302);
-    display: flex;
-    gap: 16px;
-    max-width: max-content;
-    padding: 12px 16px;
-}
-.token-status h4 {
-    font-size: 22px;
-    font-weight: 400;
-    color: #101010;
-}
-.token-status span {
-    font-weight: 600;
-    color: #181818;
-    font-size: 16px;
-    opacity: 0.35;
-}
-.token-description {
-    padding: 30px 0;
-}
-.token-description p {
-    max-width: 620px;
-    color: #777777;
-    font-size: 16px;
-}
-.token-info-box {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-.token-info-box .apr-box {
-    background: #fff;
-    box-shadow: 0 4px 4px rgba(207, 216, 226, 0.302);
-    color: #ff5c00;
-}
-.token-info-box .info-wrapper {
-    align-items: flex-start;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 16px;
-    border: 3px solid transparent;
-    position: relative;
-    z-index: 2;
-}
-.token-info-box .apr-box::after {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    z-index: -1; 
-    background: linear-gradient(180deg,#ffc700,#ff5c00);
-    border-radius: 8px;
-    padding: 3px; 
-    -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
-    mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-}
-.apr-box p {
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.info-wrapper h2 {
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 20px;
-}
-.info-wrapper p {
-    max-width: 120px;
-}
-.info-wrapper.staking-rewards {
-    background: #ffdc61;
-    border-color: #ffdc61;
-}
-.info-wrapper p {
-    font-size: 14px;
-    line-height: 13px;
-}
-.info-wrapper.restaking-rewards {
-    background: #ffb84e;
-    border-color: #ffb84e;
-}
-.info-wrapper.autolayer-rewards {
-    background: #ff873d;
-    border-color: #ff873d;
-}
 .token-apy-time-chart {
     padding-top: 10px;
     margin-top: 40px;
@@ -1748,7 +1631,6 @@ li .connect-btn:hover span {
     background: #ff9900;
     color: #fff;
 }
-
 .content-right-wrapper .asset-card-header {
     display: inline-flex;
 }
@@ -1771,7 +1653,6 @@ li .connect-btn:hover span {
     color: #777777;
     font-size: 16px;
 }
-
 .multipiler-flex-box {
     display: flex;
     align-items: center;
@@ -1782,7 +1663,6 @@ li .connect-btn:hover span {
     font-size: 16px;
     font-weight: 700;
 }
-
 .api-details-wp {
     flex-direction: row !important;
     padding-top: 20px;
@@ -1793,7 +1673,6 @@ li .connect-btn:hover span {
     flex-direction: column;
     gap: 10px;
 }
-
 .newtork-change-right-wp {
     width: 250px;
 }
@@ -1849,184 +1728,6 @@ li .connect-btn:hover span {
     letter-spacing: 0.01em;
     text-align: center;
     color: #4088fc;
-}
-
-
-/* inviteing popup style  */
-
-.inviting-popup {
-    position: fixed;
-    right: -100%;
-    top: 0;
-    height: 100%;
-    border-left: 1px solid #dedede80;
-    box-shadow: -1px 0 10px #1200211a;
-    width: 470px;
-    max-width: 90%;
-    background: #fff;
-    z-index: 800;
-    padding: 80px 30px;
-    transition: 0.3s;
-}
-.inviting-popup-wrapper .inviting-popup-header {
-    display: flex;
-    gap: 10px;
-}
-.inviting-popup-wrapper .inviting-popup-header p {
-    flex: 1 1 0%;
-}
-.refer-enter-box {
-    border: 1px solid #ddd;
-    border-radius: 19px;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 1.5rem;
-    margin: 30px 0;
-}
-.refer-enter-box label {
-    font-size: 17px;
-    font-weight: 300;
-    cursor: pointer;
-}
-.refer-enter-box input {
-    background: transparent;
-    border: none;
-    font-size: 35px;
-    font-weight: 700;
-}
-.refer-enter-box input::placeholder {
-    color: #000;
-}
-.create-code-btn button {
-    background-color: #1269ff;
-    border-radius: 12px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 32px;
-    margin-top: 3rem;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-}
-.refer-code-text p {
-    font-size: 14px;
-    opacity: 0.8;
-}
-.inviting-popup.active {
-    right: 0;
-}
-
-/*========================
- airdrop tracker page style 
-========================== */
-
-.airdrop-hero-area {
-    padding: 30px 0;
-}
-.airdrop-wrapper h2 {
-    text-align: center;
-    font-size: 26px;
-    font-weight: 700;
-}
-.airdrop-wrapper p {
-    max-width: 568px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: var(--inconsolata);
-    line-height: 1.4;
-}
-.airdrop-card {
-    background-position: 0;
-    background-size: cover;
-    border: 1px solid #606060;
-    border-radius: 20px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    overflow: hidden;
-    padding: 20px;
-    position: relative;
-    width: 100%;
-    animation: pluse 1.5s infinite;
-}
-.airdrop-card::before {
-    background-color: #1200214d;
-    bottom: 0;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-}
-.airdrop-card .airdrop-card-header {
-    border-radius: 4px;
-    margin-bottom: 0.5em;
-    width: 100%;
-    min-height: 64px;
-    animation: plues-header 1.5s 0.5s infinite;
-}
-@keyframes plues-header {
-    0% {
-        background-color: #c0c0c033;
-    }
-    50% {
-        background-color: #c0c0c066;
-    }
-    100% {
-        background-color: #c0c0c033;
-    }
-}
-@keyframes pluse {
-    0% {
-        opacity: 0.4;
-    }
-    50% {
-        opacity: 0.8;
-    }
-    100% {
-        opacity: 0.4;
-    }
-}
-.airdrop-card .airdrop-logo span {
-    padding: 4px 10px;
-    background: #0009;
-    border: 1px solid;
-    display: inline-block;
-    width: auto;
-    min-height: 29px;
-    animation: pluse 1.5s 0.5s infinite;
-}
-.airdrop-card .point-text h2 {
-    font-size: 24px;
-    font-weight: 700;
-    margin: 5px 0;
-}
-.airdrop-card .stage p {
-    margin: 5px 0;
-}
-.airdrop-card .claim-btn button {
-    background-color: #fff;
-    border: none;
-    border-radius: 60px;
-    color: #0f2b41;
-    padding: 7px 18px;
-    transition: all 0.25s ease-in-out;
-    width: max-content;
-    font-size: 16px;
-    font-weight: 500;
-}
-.airdrop-items-card {
-    padding: 60px 0;
-}
-.airdrop-items-card .row {
-    gap: 20px 0;
 }
 
 /*========== activly section style ======= */
@@ -2375,7 +2076,6 @@ li .connect-btn:hover span {
     opacity: 0.6;
     pointer-events: none;
 }
-
 .chart-box .api-text {
     text-align: right;
     padding-right: 0;

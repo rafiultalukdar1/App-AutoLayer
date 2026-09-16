@@ -6,7 +6,6 @@ Medium Screen - Others
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     
-    /* banner area  */
     .single-banner .sphere {
         display: none;
     }
@@ -56,16 +55,13 @@ Small Screen - Tablate
     .mobile-nav.show {
         display: flex;
     }
-    /* banner area  */
     .single-banner .sphere {
         display: none;
     }
-
     .tabs-items {
         flex: 1 1 0%;
         max-width: calc(100% - 180px);
     }
-    /* footer responsive  */
     .footer-links ul {
         flex-direction: column;
     }
@@ -82,18 +78,6 @@ Small Screen - Tablate
     .content-right-wrapper {
         flex: 1 1 0%;
         width: 100%;
-    }
-    .token-info-box {
-        flex-wrap: wrap;
-    }
-    .token-info-box .info-wrapper {
-        flex: 1 auto;
-        width: calc(50% - 10px);
-        align-items: center;
-        text-align: center;
-    }
-    .info-wrapper p {
-        max-width: 100%;
     }
     .chart-box {
         padding: 40px 0;
@@ -185,7 +169,6 @@ Small Screen - Mobile
     .menu-toggle-btn {
         display: block;
     }
-    /*===== banner area ==== */
     .single-banner::before {
         display: none;
     }
@@ -217,7 +200,6 @@ Small Screen - Mobile
         font-size: 14px;
         padding: 10px 18px;
     }
-    /* footer responsive  */
     .footer-links ul {
         flex-direction: column;
     }
@@ -235,38 +217,11 @@ Small Screen - Mobile
         flex: 1 1 0%;
         width: 100%;
     }
-    .token-info-box {
-        flex-wrap: wrap;
-    }
-    .token-info-box .info-wrapper {
-        flex: 1 auto;
-        width: calc(50% - 10px);
-        align-items: center;
-        text-align: center;
-    }
-    .info-wrapper p {
-        max-width: 100%;
-    }
     .chart-box {
         padding: 40px 0;
     }
     .beck-page-btn a span {
         display: none;
-    }
-    .inner-content-header {
-        align-items: start;
-        flex-direction: column;
-    }
-    .airdrop-wrapper h2 {
-        font-size: 18px;
-    }
-    .airdrop-wrapper p {
-        margin-top: 20px;
-        font-size: 18px;
-    }
-    .airdrop-items-card {
-        padding: 30px 0;
-        padding-bottom: 0;
     }
     .content-right-wrapper .token-title h2 {
         font-size: 24px;
@@ -386,7 +341,6 @@ Xtra Small Screen - Small Mobile
     .menu-toggle-btn {
         display: block;
     }
-    /* banner area */
     .single-banner::before {
         display: none;
     }
@@ -406,7 +360,6 @@ Xtra Small Screen - Small Mobile
     .single-banner {
         min-height: auto;
     }
-
     .tabs-items {
         flex: 1 1 0%;
         width: 100%;
@@ -423,7 +376,6 @@ Xtra Small Screen - Small Mobile
     .tabs-content-wrapper {
         padding: 20px 0;
     }
-    /* footer responsive  */
     .footer-links ul {
         flex-direction: column;
     }
@@ -444,54 +396,17 @@ Xtra Small Screen - Small Mobile
         flex: 1 1 0%;
         width: 100%;
     }
-    .token-info-box {
-        flex-wrap: wrap;
-    }
-    .token-info-box .info-wrapper {
-        flex: 1 auto;
-        width: calc(50% - 10px);
-        align-items: center;
-        text-align: center;
-    }
-    .info-wrapper p {
-        max-width: 100%;
-    }
     .chart-box {
         padding: 40px 0;
     }
     .beck-page-btn a span {
         display: none;
     }
-    .inner-content-header {
-        align-items: start;
-        flex-direction: column;
-    }
     .shere-wrapper button {
         margin-right: 0;
     }
     .page-head-title h4 {
         font-size: 16px;
-    }
-    .refer-enter-box input {
-        font-size: 28px;
-    }
-    .refer-enter-box {
-        padding: 25px 16px;
-        margin: 20px 0;
-    }
-    .inviting-popup {
-        padding: 80px 20px;
-    }
-    .airdrop-wrapper h2 {
-        font-size: 18px;
-    }
-    .airdrop-wrapper p {
-        margin-top: 20px;
-        font-size: 18px;
-    }
-    .airdrop-items-card {
-        padding: 30px 0;
-        padding-bottom: 0;
     }
     .content-right-wrapper .token-title h2 {
         font-size: 24px;
@@ -550,5 +465,4 @@ Xtra Small Screen - Small Mobile
     .section-title .desktop {
         display: none;
     }
-
 }

@@ -1,4 +1,4 @@
-![Banner](https://i.ibb.co.com/L2dhLHZ/App-Auto-Layer.png)
+<img src="./images/app-autoLayer.png" alt="app-autoLayer" style="width:100%;" />
 
 # App-AutoLayer
 

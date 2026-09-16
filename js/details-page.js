@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-
     // ==========================================
     // Chart 1 - APY Overtime
     // ==========================================
